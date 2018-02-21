@@ -1,0 +1,29 @@
+------------------------------------------------------------
+/usr/bin/pip run on Wed Feb  7 18:36:48 2018
+Requirement already satisfied (use --upgrade to upgrade): pip in /usr/lib/python2.7/site-packages
+
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+Downloading/unpacking install
+
+  Getting page https://pypi.python.org/simple/install/
+  URLs to search for versions for install:
+  * https://pypi.python.org/simple/install/
+  Analyzing links from page https://pypi.python.org/simple/install/
+  Could not find any downloads that satisfy the requirement install
+
+No distributions at all found for install
+
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/pip/basecommand.py", line 139, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/site-packages/pip/commands/install.py", line 266, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/site-packages/pip/req.py", line 1026, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 171, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for install

@@ -1,0 +1,11 @@
+from firebase import firebase
+import json as simplejson
+firebase = firebase.FirebaseApplication('https://<lab2-8788c>.firebaseio.com',None)
+
+ 
+name = {'Edison':10}
+#data = simplejson.dumps(name)
+  
+post = firebase.post('',name)
+   
+print post

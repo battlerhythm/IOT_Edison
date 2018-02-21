@@ -1,0 +1,11 @@
+Testing output to zip...
+unzip: invalid option -- 'h'
+BusyBox v1.22.1 (2016-06-06 14:50:27 PDT) multi-call binary.
+
+Usage: unzip [-lnopq] FILE[.zip] [FILE]... [-x FILE...] [-d DIR]
+
+Warning:  'unzip' command not available.  Skipping test.
+Testing output to jar...
+./google/protobuf/compiler/zip_output_unittest.sh: line 76: jar: command not found
+Warning:  'jar' command not available.  Skipping test.
+PASS

@@ -1,0 +1,27 @@
+monitor/crc.o: monitor/crc.c /usr/include/stdc-predef.h config.h \
+ monitor/crc.h /usr/lib/gcc/i586-poky-linux/4.9.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h
+
+/usr/include/stdc-predef.h:
+
+config.h:
+
+monitor/crc.h:
+
+/usr/lib/gcc/i586-poky-linux/4.9.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/wchar.h:

@@ -1,0 +1,4 @@
+#! /bin/sh
+bluetiithctl
+disconnect <device_id>
+exit

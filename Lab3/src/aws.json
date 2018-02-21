@@ -1,0 +1,5 @@
+{
+  "account_id": "264539880516",
+  "identity_pool_id": "us-east-1:f83298dc-b5b7-4ffc-974d-af61fce2ac61",
+  "role_arn": "arn:aws:iam::264539880516:role/Cognito_edisonDemoKinesisUnauth_Role"
+}
